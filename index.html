@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style>
+		.cost-effective{
+			position:relative;
+			width:1000px;
+			color: white;
+		}
+		
+		.cost-effective img{
+			width:100%;
+			margin: 0;
+			height:100%;
+			overflow:hidden;
+		}
+		
+		.cost-effective-trapezoid{
+			position: absolute;
+			bottom:0;
+			border-left: 1000px solid #2D3030;
+			border-top: 100px solid transparent;
+			height: 315px;
+			width: 0;
+			z-index:100;
+		}
+		
+	    .cost-effective-text{
+			position: absolute;
+			color: white;
+			top:505px;
+			left: 215px;
+			z-index:1000;
+		}
+		
+		.cost-effective-title{
+			font-size:2em;
+			font-weight:400;
+		}
+		
+		.cost-effective-desc{
+			font-size:1em;
+			font-weight:200;
+		}
+		
+		.col-lg-4{
+			float: right;
+		}
+	</style>
+  </head>
+  <body>
+	<div class="container">
+		<div class="cost-effective">
+			<img src="sattellite.png" />
+			<div class="cost-effective-trapezoid">			
+			</div>
+			
+		</div>
+		<div class="container">
+			<div class="cost-effective-text row">
+				<div class="col-lg-8">
+					<p class="cost-effective-title">cost effective</p>
+					<p class="cost-effective-desc">Enter Text</p>
+				</div>
+				<div class="col-lg-4">
+					<p>available</p>
+					<p>secure</p>
+					<p>fast</p>
+					<p>resilient</p>
+					<p>scalable</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  </body>
+</html>
